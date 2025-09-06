@@ -1,0 +1,19 @@
+
+1. WAP a C program to calculate the area and perimeter of a rectangle based on its length and width.
+
+SOLUTION 1=
+#include <stdio.h>
+ int main() {
+ //int length =50;
+ //int breadth =50;
+ printf("NAME=PRIYANSHU\nSAP
+ ID=590027008\nCOUSE=BCAB5\n");
+ int length,breadth;
+ printf ("Enter length\n");
+ scanf("%d",&length);
+ printf ("Enter breadth\n");
+ scanf("%d",&breadth);
+ printf(" The area of this rectangle is %d ",
+ length*breadth);
+ return 0;
+ }
